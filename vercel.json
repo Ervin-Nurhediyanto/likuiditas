@@ -30,5 +30,10 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "outputDirectory": "public"
+    "outputDirectory": "public",
+    "excludeFiles": [
+        "node_modules/**",
+        ".git/**",
+        "tests/**"
+    ]
 }
