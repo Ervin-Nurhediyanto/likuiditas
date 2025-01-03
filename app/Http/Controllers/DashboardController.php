@@ -8,13 +8,15 @@ class DashboardController extends Controller
 {
     public function index(Request $request)
     {
-        $active = $request->query('active', 'dashboard_v1');
-        return view('dashboard-lte.' .$active, ['active' => $active]);
+        return view('dashboard.index');
+        // $active = $request->query('active', 'dashboard_v1');
+        // return view('dashboard-lte.' .$active, ['active' => $active]);
     }
 
     public function lte(Request $request)
     {
-        $active = $request->query('active', 'dashboard_v1');
-        return view('dashboard-lte.' .$active, ['active' => $active]);
+        return view('dashboard.index');
+        // $active = $request->query('active', 'dashboard_v1');
+        // return view('dashboard-lte.' .$active, ['active' => $active]);
     }
 }
