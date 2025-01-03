@@ -30,5 +30,25 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "outputDirectory": "public"
+    "outputDirectory": "public",
+    "ignore": [
+    "node_modules/**",
+    "public/**",
+    "storage/**",
+    "vendor/**",
+    ".env",
+    ".gitignore",
+    ".phpunit.cache",
+    ".phpunit.result.cache",
+    "Homestead.json",
+    "Homestead.yaml",
+    "auth.json",
+    "npm-debug.log",
+    "yarn-error.log",
+    ".fleet",
+    ".idea",
+    ".nova",
+    ".vscode",
+    ".zed"
+  ]
 }
