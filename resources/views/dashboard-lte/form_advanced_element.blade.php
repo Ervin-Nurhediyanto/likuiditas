@@ -138,8 +138,8 @@
     $("input[data-bootstrap-switch]").each(function(){
       $(this).bootstrapSwitch('state', $(this).prop('checked'));
     })
-
   })
+  
   // BS-Stepper Init
   document.addEventListener('DOMContentLoaded', function () {
     window.stepper = new Stepper(document.querySelector('.bs-stepper'))
